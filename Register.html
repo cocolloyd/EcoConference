@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Title goes here</title>
+	<meta name="description" content="">
+
+	<!-- Enable responsive layouts; tell browsers not to shrink pages to fit small screens -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Load styles -->
+	<!-- For production, combine all of the stylesheets -->
+	<link rel="stylesheet" href="css/sitewide.css">
+
+	<!-- Webfonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+</head>
+<body class="homepage">
+<!-- Change this classname for each page/type! -->
+
+	<!-- Page content typically goes inside the container -->
+	<div class="title">
+		<img class="titlepage" src="img/Conference Title.svg">
+		<nav class="global-nav">
+				<ul>
+						<li class="link-home">
+								<a href="index.html">About</a>
+						</li>
+						<li>
+								<a href="Speakers.html">Speakers</a>
+						</li>
+						<li>
+								<a href="Schedule.html">Schedule</a>
+						</li>
+						<li class="link-home">
+								<a href="Hot Topics.html">Hot Topics</a>
+						</li>
+						<li class="link-home">
+								<a href="Register.html">Register</a>
+						</li>
+				</ul>
+		</nav>
+	</div>
+
+	<div class="container">
+		<div class="registerintro">
+			<h2>Eco DC Package Registration Form</h2>
+				<p>Thank you for your interest in our conference. We are so excited to see you! Please fil out all the required information and select your package below.</p>
+		</div>
+
+		<div class="info">
+			<h4>Full Weekend Package</h4>
+			<p>Guests will attend both Saturday and Sunday's conferences. A continental breakfast, lunch, and dinner will be provided. Registration passes and free gifts will be provided upon arrival. Please contact the office for any dietary restrictions or requests.</p>
+		</div>
+
+		<div class="info">
+			<h4>Day One Package</h4>
+			<p>Enjoy the first day of the conference, complete with all three meals. Guests will receive a pass that marks their attendance for the day and a commemorative gift.</p>
+		</div>
+
+		<div class="info">
+			<h4>Day Two Package</h4>
+			<p>Enjoy the second day of the conference, complete with breakfast and lunch. Guests will receive a pass that marks their attendance for the day and a commemorative gift. Please note, the dinner gala is a separate event and requires additional purchase.</p>
+		</div>
+
+		<div class="info">
+			<h4>Hotel Package</h4>
+			<p>Guests are provided a double room courtesy of the Marriott, just a couple blocks down from the conference venue.</p>
+		</div>
+
+		<div class="info">
+			<h4>VIP Guest Pass</h4>
+			<p>Meet with any of our speakers or keynotes before and after the conference days. Guests with this pass will also have access to our special lounge.</p>
+		</div>
+
+		<div class="info">
+			<h4>Gala After Hours</h4>
+			<p>Enjoy the last day of the conference weekend with a reception, award night, and evening of fun. Celebrate the earth while enjoying food delivered from sustainable companies.</p>
+		</div>
+
+	<div class="containerregistration">
+		<h1>Registration Package Selections</h1>
+		<label class="package">Full Weekend
+		  <input type="checkbox" checked="checked">
+		  <span class="checkmark"></span>
+		</label>
+		<label class="package">Day One Only
+		  <input type="checkbox">
+		  <span class="checkmark"></span>
+		</label>
+		<label class="package">Day Two Only
+		  <input type="checkbox">
+		  <span class="checkmark"></span>
+		</label>
+		<label class="package">Conference Hotel Room Package
+			<input type="checkbox">
+			<span class="checkmark"></span>
+		</label>
+		<label class="package">VIP Guest Pass
+		  <input type="checkbox">
+		  <span class="checkmark"></span>
+		</label>
+		<label class="package">Gala After Hours
+		  <input type="checkbox">
+		  <span class="checkmark"></span>
+		</label>
+	</div>
+		<div class="row">
+		 	<div class="col-75">
+		   	<div class="box1">
+		     	<form action="/action_page.php">
+
+		       	<div class="row1">
+		         	<div class="col-50">
+		           	<h3>Billing Address</h3>
+		           	<label for="fname"><i class="fa fa-user"></i> Full Name</label>
+		           	<input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+		           	<label for="email"><i class="fa fa-envelope"></i> Email</label>
+		           	<input type="text" id="email" name="email" placeholder="john@example.com">
+		           	<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+		           	<input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+		           	<label for="city"><i class="fa fa-institution"></i> City</label>
+		           	<input type="text" id="city" name="city" placeholder="New York">
+
+		           	<div class="row2">
+		             	<div class="col-50">
+		               	<label for="state">State</label>
+		               	<input type="text" id="state" name="state" placeholder="NY">
+		             	</div>
+		             	<div class="col-50">
+		               	<label for="zip">Zip</label>
+		               	<input type="text" id="zip" name="zip" placeholder="10001">
+		             	</div>
+		           	</div>
+		         	</div>
+
+		         	<div class="col-50">
+		           	<h3>Payment</h3>
+		           	<label for="fname">Accepted Cards</label>
+		           	<div class="icon-container">
+		             	<i class="fa fa-cc-visa" style="color:navy;"></i>
+		             	<i class="fa fa-cc-amex" style="color:blue;"></i>
+		             	<i class="fa fa-cc-mastercard" style="color:red;"></i>
+		             	<i class="fa fa-cc-discover" style="color:orange;"></i>
+		           	</div>
+		           	<label for="cname">Name on Card</label>
+		           	<input type="text" id="cname" name="cardname" placeholder="John More Doe">
+		           	<label for="ccnum">Credit card number</label>
+		           	<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+		           	<label for="expmonth">Exp Month</label>
+		           	<input type="text" id="expmonth" name="expmonth" placeholder="September">
+		           	<div class="row">
+		             	<div class="col-50">
+		               	<label for="expyear">Exp Year</label>
+		               	<input type="text" id="expyear" name="expyear" placeholder="2018">
+		             	</div>
+		             	<div class="col-50">
+		               	<label for="cvv">CVV</label>
+		               	<input type="text" id="cvv" name="cvv" placeholder="352">
+		             	</div>
+		           	</div>
+		         	</div>
+
+		       	</div>
+		       	<label>
+		         	<input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+		       	</label>
+		       	<input type="submit" value="Submit Payment" class="btn">
+		     	</form>
+		   	</div>
+		 	</div>
+		 	<div class="col-25">
+		   	<div class="box2">
+		     	<h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+		     	<p>Day 1 Package<span class="price">$15</span></p>
+		     	<p>Day 2 Package<span class="price">$5</span></p>
+		     	<p>Full Conference Package<span class="price">$8</span></p>
+		     	<p>Gala After Hours Package<span class="price">$2</span></p>
+		     	<hr>
+		     	<p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+		   	</div>
+		 	</div>
+		</div>
+	</div>
+
+	</div><!-- end container -->
+
+</body>
+</html>
